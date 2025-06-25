@@ -1,8 +1,9 @@
 package main
 
-import "newProject/exercise"
+import (
+	"newProject/exercise/slice"
+)
 
 func main() {
-	exercise.MapConcurrencyTest() // 测试原生map是否并发安全
-	// TODO
+	slice.CopySlice()
 }
